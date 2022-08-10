@@ -13,7 +13,8 @@ steps:
   - name: greeting
     commands:
       - echo hello world
-      - touch /root/qinjunhang
+      - echo ${test1} > /root/qinjunhang
+
 
 
 ...
