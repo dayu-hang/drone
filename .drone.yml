@@ -4,7 +4,7 @@ type: ssh
 name: default
 
 server:
-  host: 10.1.3.116
+  host: 10.1.3.112
   user: root
   password:
     from_secret: testpassword
