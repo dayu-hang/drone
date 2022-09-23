@@ -13,7 +13,9 @@ steps:
   - name: greeting
     commands:
       - echo hello world
+      - wget https://github.com/prometheus/prometheus/releases/download/v2.37.1/prometheus-2.37.1.darwin-amd64.tar.gz
       - echo $test1 > /root/qinjunhang
+      
 
 
 
